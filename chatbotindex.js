@@ -1,9 +1,9 @@
-//import API_KEY from "apik.js";
+
 const form = document.getElementById("chat-form");
 const input = document.getElementById("chat-input");
 const messages = document.getElementById("chat-messages");
-//const apiKey = API_KEY;
-const apiKey="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";
+const apiKey = process.env.API_KEY;
+//const apiKey="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";
 
 const preText =
   "I am your personal informational guide for health issues and there solution.i am healthy heath bot  ";
